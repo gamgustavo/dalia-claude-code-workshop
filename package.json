@@ -1,0 +1,20 @@
+{
+  "name": "simple-website",
+  "version": "1.0.0",
+  "description": "Simple, clean website for AWS Amplify deployment",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "deploy": "echo 'Deploy with AWS Amplify Console'",
+    "validate": "echo 'HTML and CSS validation would run here'"
+  },
+  "keywords": [
+    "simple",
+    "clean",
+    "website",
+    "aws-amplify",
+    "static-site"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

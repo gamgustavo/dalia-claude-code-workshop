@@ -1,0 +1,16 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - echo "No pre-build steps required for static site"
+    build:
+      commands:
+        - echo "Building static website"
+        - echo "No build process required - serving static files directly"
+  artifacts:
+    baseDirectory: /
+    files:
+      - '**/*'
+      - '!amplify.yml'
+      - '!README.md'
