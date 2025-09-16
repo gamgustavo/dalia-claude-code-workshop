@@ -1,11 +1,49 @@
 {
-  "name": "claude-workshop-website",
+  "name": "dalia-claude-code-workshop",
   "version": "1.0.0",
-  "description": "Simple static website for AWS Amplify deployment",
+  "description": "An interactive workshop website designed to teach developers how to use Claude Code, Anthropic's official CLI tool that brings AI-powered coding assistance directly to the terminal.",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"No tests configured\""
+    "start": "npx http-server -p 8000 -c-1",
+    "dev": "npx http-server -p 8000 -c-1 -o",
+    "serve": "npx http-server -p 3000 -c-1",
+    "validate-html": "npx html-validate index.html",
+    "format": "npx prettier --write \"**/*.{html,css,js,json,md}\"",
+    "lint": "npx eslint . --ext .js",
+    "test": "npm run validate-html",
+    "build": "echo 'Static site - no build step required'",
+    "clean": "echo 'Static site - no clean step required'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "claude-code",
+    "anthropic",
+    "ai",
+    "workshop",
+    "cli",
+    "coding-assistant",
+    "aws-amplify",
+    "static-website"
+  ],
+  "author": {
+    "name": "Claude Code Workshop Team",
+    "email": "workshop@claudecode.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gamgustavo/dalia-claude-code-workshop.git"
+  },
+  "homepage": "https://github.com/gamgustavo/dalia-claude-code-workshop#readme",
+  "bugs": {
+    "url": "https://github.com/gamgustavo/dalia-claude-code-workshop/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "html-validate": "^8.7.4",
+    "prettier": "^3.1.1",
+    "eslint": "^8.56.0"
+  }
 }
