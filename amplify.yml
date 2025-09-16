@@ -3,14 +3,14 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "No pre-build steps required for static site"
+        - npm ci
     build:
       commands:
-        - echo "Building static website"
-        - echo "No build process required - serving static files directly"
+        - echo "No build step required for static site"
   artifacts:
     baseDirectory: /
     files:
       - '**/*'
-      - '!amplify.yml'
-      - '!README.md'
+  cache:
+    paths:
+      - node_modules/**/*

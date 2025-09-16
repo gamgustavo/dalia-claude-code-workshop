@@ -1,20 +1,11 @@
 {
-  "name": "simple-website",
+  "name": "claude-workshop-website",
   "version": "1.0.0",
-  "description": "Simple, clean website for AWS Amplify deployment",
-  "main": "index.html",
+  "description": "Simple static website for AWS Amplify deployment",
   "scripts": {
-    "start": "npx http-server . -p 3000 -o",
-    "deploy": "echo 'Deploy with AWS Amplify Console'",
-    "validate": "echo 'HTML and CSS validation would run here'"
+    "test": "echo \"No tests configured\""
   },
-  "keywords": [
-    "simple",
-    "clean",
-    "website",
-    "aws-amplify",
-    "static-site"
-  ],
-  "author": "Your Name",
-  "license": "MIT"
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

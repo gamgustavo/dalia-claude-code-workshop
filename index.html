@@ -3,32 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Claude Code Workshop - Learn about Anthropic's powerful AI coding assistant">
     <title>Claude Code Workshop</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-brand">
-                <h2>Claude Code Workshop</h2>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="#home">Claude Code Workshop</a>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
-            <ul class="nav-menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main>
         <section id="home" class="hero">
             <div class="container">
                 <div class="hero-content">
                     <h1>Claude Code Workshop</h1>
-                    <p>Discover the power of Claude Code - Anthropic's AI-powered coding assistant that helps developers write, debug, and understand code more efficiently than ever before.</p>
-                    <a href="#contact" class="btn">Learn More</a>
+                    <p>Learn to build amazing applications with Claude Code, Anthropic's official CLI tool that brings AI-powered coding assistance directly to your terminal.</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Get Started</a>
+                        <a href="#features" class="btn btn-secondary">Explore Features</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -36,25 +45,26 @@
         <section id="about" class="section">
             <div class="container">
                 <h2>What is Claude Code?</h2>
-                <p>Claude Code is Anthropic's cutting-edge AI coding assistant that revolutionizes how developers work. It combines natural language understanding with deep programming knowledge to help you write better code faster, debug complex issues, and learn new technologies with ease.</p>
+                <p>Claude Code is an interactive command-line interface (CLI) tool that helps developers with software engineering tasks. It provides intelligent code generation, debugging assistance, refactoring suggestions, and comprehensive code analysis—all powered by Claude's advanced AI capabilities.</p>
+                <p>Whether you're building a new application, debugging complex issues, or optimizing existing code, Claude Code acts as your AI pair programmer, available directly in your development environment.</p>
             </div>
         </section>
 
         <section id="features" class="section">
             <div class="container">
-                <h2>Key Features</h2>
+                <h2>Workshop Topics</h2>
                 <div class="services-grid">
                     <div class="service-card">
+                        <h3>Getting Started</h3>
+                        <p>Learn how to install and configure Claude Code, understand basic commands, and integrate it into your development workflow.</p>
+                    </div>
+                    <div class="service-card">
                         <h3>Code Generation</h3>
-                        <p>Generate high-quality code in multiple programming languages with natural language prompts.</p>
+                        <p>Discover how to leverage Claude Code for generating boilerplate code, implementing features, and creating entire applications from specifications.</p>
                     </div>
                     <div class="service-card">
-                        <h3>Debugging Assistant</h3>
-                        <p>Identify and fix bugs quickly with AI-powered analysis and suggestions.</p>
-                    </div>
-                    <div class="service-card">
-                        <h3>Code Explanation</h3>
-                        <p>Understand complex codebases with clear, detailed explanations of how code works.</p>
+                        <h3>Advanced Features</h3>
+                        <p>Explore advanced capabilities including debugging assistance, code refactoring, test generation, and documentation creation.</p>
                     </div>
                 </div>
             </div>
@@ -62,29 +72,70 @@
 
         <section id="contact" class="section">
             <div class="container">
-                <h2>Get Started</h2>
-                <p>Ready to enhance your coding experience with Claude Code?</p>
+                <h2>Contact Information</h2>
+                <p>Have questions about the workshop or want to learn more about Claude Code? Get in touch with us!</p>
                 <div class="contact-info">
-                    <p>Website: <a href="https://claude.ai/code" style="color: #3498db;">claude.ai/code</a></p>
-                    <p>Documentation: <a href="https://docs.anthropic.com/claude/docs" style="color: #3498db;">docs.anthropic.com</a></p>
-                    <p>Workshop Email: workshop@claudecode.dev</p>
+                    <p>Email: workshop@claudecode.dev</p>
+                    <p>GitHub: github.com/anthropics/claude-code</p>
+                    <p>Documentation: docs.anthropic.com/claude-code</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer>
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2024 Claude Code Workshop. All rights reserved.</p>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#features">Features</a>
-                    <a href="#contact">Contact</a>
+                <div class="footer-section">
+                    <h3>Claude Code</h3>
+                    <p>Empowering developers with AI-powered coding assistance.</p>
                 </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/anthropics/claude-code" aria-label="GitHub">GitHub</a>
+                        <a href="https://docs.anthropic.com" aria-label="Documentation">Docs</a>
+                        <a href="https://anthropic.com" aria-label="Anthropic">Anthropic</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Claude Code Workshop. Powered by Anthropic.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            navToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                navToggle.classList.toggle('active');
+            });
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                        navMenu.classList.remove('active');
+                        navToggle.classList.remove('active');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
