@@ -1,6 +1,6 @@
-# Claude Code: Workshop Práctico para Desarrolladores (3 horas)
+# Claude Code: Workshop Práctico
 
-## Resumen Ejecutivo
+## Resumen
 
 Workshop hands-on de 3 horas donde los participantes aprenderán Claude Code construyendo un proyecto web real y configurando flujos de trabajo automatizados.
 
@@ -605,4 +605,3 @@ dalia-claude-code-workshop/
 - Documentación oficial: https://docs.anthropic.com/en/docs/claude-code
 - Documentación uv: https://docs.astral.sh/uv/
 
-Este workshop de 3 horas asegura que los desarrolladores salgan con experiencia práctica y herramientas configuradas para usar Claude Code inmediatamente en su trabajo diario, utilizando las mejores prácticas modernas con uv para gestión de paquetes Python.
