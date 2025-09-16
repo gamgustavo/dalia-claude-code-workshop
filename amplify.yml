@@ -3,14 +3,24 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
+        - echo "Installing dependencies..."
+        - npm ci --prefer-offline --no-audit
     build:
       commands:
-        - echo "No build step required for static site"
+        - echo "Building static site..."
+        - npm run build
   artifacts:
     baseDirectory: /
     files:
       - '**/*'
+    excludeFiles:
+      - node_modules/**/*
+      - .git/**/*
+      - .gitignore
+      - amplify.yml
+      - package-lock.json
+      - README.md
+      - docs/**/*
   cache:
     paths:
       - node_modules/**/*
