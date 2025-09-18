@@ -29,7 +29,7 @@ Workshop hands-on de 3 horas donde los participantes aprenderán Claude Code con
 ## Requisitos Previos
 
 - Laptop con Node.js 18+ instalado
-- Cuenta de Anthropic con acceso a API
+- Cuenta de Claude
 - Terminal y editor de código favorito
 - Conocimientos básicos de línea de comandos
 - Acceso a GitHub (cuenta personal)
