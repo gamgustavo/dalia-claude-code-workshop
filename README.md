@@ -9,36 +9,22 @@ Workshop hands-on de 3 horas donde los participantes aprenderán Claude Code con
 ### Workshop de 3 horas
 
 1. **Bienvenida e Introducción** (10 min)
-
 2. **Instalación y Configuración** (25 min)
    - Instalación de Claude Code
    - Setup inicial
-
 3. **Integración con VS Code** (15 min)
-
 4. **Primera Interacción con Claude** (10 min)
-
-5. **Break** ☕ (10 min)
-
-6. **Construcción de Sitio Web** (45 min)
+5. **Construcción de Sitio Web** (45 min)
    - Crear sitio web responsivo
    - Configuración para AWS Amplify
-
-7. **Manejo de Git con Claude** (15 min)
-
-8. **Creación de Subagentes** (30 min)
+6. **Manejo de Git con Claude** (15 min)
+7. **Creación de Subagentes** (30 min)
    - Subagente html-css-standards
    - Subagente repo-structure-manager
-
-9. **Debugging y Mejoras** (20 min)
-
-10. **Break** ☕ (10 min)
-
-11. **Servidor MCP Weather** (15 min)
-
-12. **Despliegue con Amplify** (15 min)
-
-13. **Q&A y Cierre** (10 min)
+8. **Debugging y Mejoras** (20 min)
+9. **Servidor MCP Weather** (15 min)
+10. **Despliegue con Amplify** (15 min)
+11. **Q&A y Cierre** (10 min)
 
 ## Requisitos Previos
 
